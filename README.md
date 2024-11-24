@@ -1,8 +1,37 @@
-# React + Vite
+# Currency Convertor
+Fetches real-time currency data using the Fawaz Ahmed Currency API. Uses React hooks for dynamic updates and a custom hook for data management and reusability.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Real-time currency conversion
+- Dynamic updates based on user input
+- Custom React hook for data management
 
-Currently, two official plugins are available:
+## Installation and Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###  Backend (Node.js)
+
+1. Clone the repository:
+```bash
+git clone https://github.com/mesauravjoshi/Currency_Convertor.git
+cd CurrencyConverter
+```
+ 
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the backend server:
+```bash
+npm run dev
+```
+
+
+## Usage
+1. Access the application at http://localhost:3000.
+2. Enter the currency and amount to convert.
+3. View real-time conversion results.
+
+## License
+This project is licensed under the ISC License.
+
